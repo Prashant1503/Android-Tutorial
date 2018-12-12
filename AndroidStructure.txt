@@ -1,0 +1,64 @@
+              ******** Android Project Structure********************
+
+
+1.src(source): This envelope contains the Java source documents.
+
+2.gen(generated) :Generated Java library, this library is for Android inside use as it were.
+
+3.Res(resource) :
+                 Here we can store asset documents, for example, pictures, XML records for      
+characterizing designs, et cetera. Inside this organizer there are extra envelopes, for example,  Drawable, Layout, and Values.
+
+4.Drawable:
+           Here we store the different realistic records. We can see three sorts of drawable     organizers. This is on the grounds that there are numerous Android gadgets with various screen resolutions. As a matter of course, there are a few adaptations of this envelope, for example, Drawable-mdpi, drawable-hdpi, et cetera. This is required with a specific end goal to adjust to various screen resolutions.
+
+5.Layout: 
+          This is the spot for XML format documents. Format documents are XML records which characterize how different Android articles, (for example, textboxes, catches, and so on.) are sorted out on the screen.
+
+Values: XML records which store different string values (titles, marks, and so forth.).
+
+
+
+******************* Real records in the Android venture *****************************************
+
+1.AndroidManifest.xml:
+                      This is the Android definition record. It contains data about the Android application, for example, least Android form, authorization to get to Android gadget capacities, for example, web access consent, capacity to utilize telephone authorization, and so on.
+
+2.MainLayout.xml: 
+                  This document portrays the format of the page. This implies the situation of each segment, (for example, textboxes, marks, radio catches, client characterized segments, and so on.) on the application screen.
+
+**********************************************Source code ************************************************************************************
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+ 
+</LinearLayout>
+
+3.Action class:
+               Every application that involves the whole gadget screen needs no less than one class which acquires from the Activity class. One noteworthy strategy is called OnCreate. This strategy starts the application and burdens the design page.
+  
+  
+************************        ********Source code******************************************************************************************
+package com.codebind;
+ 
+import android.app.Activity;
+import android.os.Bundle;
+ 
+public class MynewprojectActivity extends Activity {
+     
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    }
+}
+
+
