@@ -1,5 +1,0 @@
-Commited Suceesfuly>> start.txt
-echo Commited Suceesfuly>>start.txt
-
-echo Commited Suceesfuly
-Commited Suceesfuly
