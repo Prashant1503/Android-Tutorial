@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Widget_configActivity">
+
+    <include
+        android:id="@+id/config_calc"
+        layout="@layout/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/config_bg_seekbar_holder"
+        android:layout_marginBottom="16dp">
+    </include>
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/config_bg_color"/>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/config_bg_seekbar_holder"
+        android:layout_alignBottom="@+id/config_bg_color"
+        android:layout_alignTop="@+id/config_bg_color"
+        android:layout_toRightOf="@id/config_bg_color"
+        android:background="@android:color/white"
+        >
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/config_bg_seekbar"
+            android:layout_centerVertical="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"/>
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/config_text_color"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/config_save"
+            android:layout_alignBottom="@+id/config_text_color"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/config_text_color"
+            android:fontFamily="sans-serif-light"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+

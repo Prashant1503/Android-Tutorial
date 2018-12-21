@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FragmentExample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click_fragment_1">Click Fragment 1</string>
+    <string name="this_is_my_first_fragment">This is My first Fragment</string>
+    <string name="SecondFragment">This is my Second Fragment</string>
+    <string name="image1">TODO</string>
+    <string name="image2">TODO</string>
+
+
+</resources>

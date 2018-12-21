@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alarm Manager Demo</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="stop_alarm">Stop alarm</string>
+</resources>
