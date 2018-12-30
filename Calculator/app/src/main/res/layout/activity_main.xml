@@ -5,36 +5,244 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
-    android:weightSum="4"
+    android:weightSum="0"
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
-    <include
-        layout="@layout/cal_result"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"/>
-    
-  <Button
-      android:id="@+id/btn_Clear"
-      android:text="C"
-      style="@style/FunctionalButtons"
-      android:layout_marginTop="2dp"
-      android:layout_marginLeft="2dp"
-      android:layout_marginRight="2dp"
-      android:layout_width="wrap_content"
-      android:layout_weight="0"
-      android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="202dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/btn_Percentage"
-        android:text="%"
-        style="@style/FunctionalButtons"
-        android:layout_marginTop="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
+        <!--Edit Text for Result -->
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="388dp"
+            android:layout_height="240dp"
+            android:background="#fffcfc"
+            android:hint="@string/result"
+            android:textDirection="anyRtl"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+             <!--1st Row of Buttons-->
+    <LinearLayout
+
+        android:layout_marginTop="65dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight=/>
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+       android:layout_weight="0.">
+
+        <Button
+            android:background="#f5b041"
+            android:id="@+id/btnAc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="@string/ac"
+            android:textSize="20sp"/>
+
+        <Button
+            android:background="#f5b041"
+            android:id="@+id/btnBackArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+
+            android:id="@+id/btnMix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/mix"/>
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/div"/>
+    </LinearLayout>
+
+          <!--2nd Row of Buttons-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="7"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_8"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_9"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/x"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+           <!--3rd Row of Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_4"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_5"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_6"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/sub"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+             <!--4 th Row for Buttons -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_2"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_3"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/plus"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+             <!--5th Row of Buttons-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="177sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_0"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/btnDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/decimal"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
+
+
+        <Button
+            android:background="#f5b041"
+            android:id="@+id/btnEqual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/equal"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"/>
 
 
 
@@ -44,4 +252,6 @@
 
 
 
+
+    </LinearLayout>
 </LinearLayout>

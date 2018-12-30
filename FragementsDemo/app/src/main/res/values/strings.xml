@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">FragementsDemo</string>
-    <string name="simple_fragment">Simple Fragment</string>
-    <string name="second_button">Second Button</string>
-    <string name="third_button">Third Button</string>
-    <string name="todo">TODO</string>
-    <string name="button">Button</string>
-    <string name="new_click">New Click</string>
-</resources>

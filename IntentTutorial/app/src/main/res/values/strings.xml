@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Intent Tutorial</string>
-    <string name="textview">Enter a Message</string>
-    <string name="name">Name</string>
-    <string name="clickhere">SEND MESSAGE</string>
-    <string name="user_message">Enter a Message</string>
-</resources>

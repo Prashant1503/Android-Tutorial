@@ -1,25 +1,11 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">#a7d3f0</item>
         <item name="colorAccent">@color/colorAccent</item>
-        
-        
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="FunctionalButtons">
-        <item name="android:textSize">40sp</item>
-        <item name="android:minHeight">80dp</item>
-        <item name="android:textColor">@color/colorFunctionalButtonTxt</item>
-
-        <item name="android:background">@drawable/func_round_rectangle_buttons</item>
-
-
     </style>
 
 </resources>

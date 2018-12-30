@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mini Calculator</string>
+    <string name="mod">Percentage</string>
+    <string name="div">Div</string>
+    <string name="mul">Mul</string>
+    <string name="sub">Sub</string>
+    <string name="result">Result</string>
+    <string name="add">Add</string>
+    <string name="number_one">Number One</string>
+    <string name="addition">Addition</string>
+</resources>
