@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/inputNumber"
+        android:inputType="phone"
+        android:hint="@string/enter_phone_number"
+        />
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="103dp"
+        android:ems="10"
+        android:hint="@string/enter_message"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="200"
+        android:maxLines="5" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputMessage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="44dp"
+
+        android:background="@color/colorPrimary"
+        android:onClick="send"
+        android:text="@string/send"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>

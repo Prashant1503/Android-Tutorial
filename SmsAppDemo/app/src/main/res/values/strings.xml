@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sms App Demo</string>
+    <string name="dial">DIal</string>
+    <string name="send_sms">send sms</string>
+</resources>
