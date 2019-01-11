@@ -1,0 +1,4 @@
+#Thu Jan 03 12:36:25 IST 2019
+base.0=/home/pintu/AndroidStudioProjects/Calculator2/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

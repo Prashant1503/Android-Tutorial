@@ -1,0 +1,4 @@
+#Wed Jan 02 18:42:56 IST 2019
+base.0=/home/pintu/AndroidStudioProjects/PendingIntent/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

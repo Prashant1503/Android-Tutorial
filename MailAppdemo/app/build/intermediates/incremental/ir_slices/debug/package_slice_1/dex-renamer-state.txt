@@ -1,0 +1,4 @@
+#Mon Dec 31 22:15:30 IST 2018
+base.0=/home/pintu/AndroidStudioProjects/MailAppdemo/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex
