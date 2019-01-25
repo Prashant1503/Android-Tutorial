@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Sms Manager</string>
-    <string name="enter_phone_number">Enter phone number</string>
-    <string name="enter_message">Enter message</string>
-    <string name="send">Send</string>
-</resources>

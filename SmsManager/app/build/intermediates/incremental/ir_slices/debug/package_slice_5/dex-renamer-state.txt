@@ -1,4 +1,0 @@
-#Tue Jan 01 21:17:02 IST 2019
-base.0=/home/pintu/AndroidStudioProjects/SmsManager/app/build/intermediates/transforms/dexMerger/debug/5
-path.0=classes.dex
-renamed.0=classes.dex

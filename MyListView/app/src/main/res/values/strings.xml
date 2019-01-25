@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MyListView</string>
+
+    <!--Main Title-->
+
+    <string-array name="main_title">
+        <item>Android Interview</item>
+        <item>Java Interview</item>
+        <item>C++ Interview</item>
+        <item>PHP Interview</item>
+        <item>NodeJS Interview</item>
+        <item>Pearl Interview</item>
+        <item>AngularJS Interview</item>
+
+    </string-array>
+                               <!--Subtitle  -->
+    <string-array name="sub_title">
+
+        <item>1.Q  What is List view ReadMore </item>
+        <item>1.Q  Is Java a Pure object oriented language</item>
+        <item>1.Q  What is used instead of memory allocation in C++ ?.</item>
+        <item>1.Q  Which programming language does PHP resemble?.</item>
+        <item>1.Q  What is Node.js? Where can you use it?</item>
+        <item>1.Q What is Perl?</item>
+        <item>1.Q  What is Angular JS?</item>
+    </string-array>
+
+        <!--   Image url -->
+    <string-array name="image_title">
+
+        <item>@drawable/android</item>
+        <item>@drawable/java</item>
+        <item>@drawable/cplus</item>
+        <item>@drawable/php</item>
+        <item>@drawable/nodejs</item>
+        <item>@drawable/perl</item>
+        <item>@drawable/angularjs</item>
+    </string-array>
+
+        <!--Version title-->
+
+    <string-array name="version_title">
+
+        <item>3.2.2 </item>
+        <item>4.3</item>
+        <item>4.2</item>
+        <item>5.0</item>
+        <item>6.0</item>
+        <item>7.0</item>
+        <item>8.0</item>
+    </string-array>
+
+
+
+
+
+
+
+</resources>

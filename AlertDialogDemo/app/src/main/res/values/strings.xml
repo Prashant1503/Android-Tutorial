@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Alert Dialog Demo</string>
-    <string name="negative_action_button">Negative action button</string>
-    <string name="positive_action_button">Positive action button</string>
-    <string name="nautral_action_button">Nautral action button</string>
-</resources>

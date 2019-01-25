@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/SelectView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:text="Select your action here" />
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:layout_below="@id/SelectView"
+        android:textSize="20dp"
+        android:text="Add user" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddUser"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="Delete user"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDelete"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="View user"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnUpdateUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@id/btnViewUser"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Update user" />
+</RelativeLayout>
